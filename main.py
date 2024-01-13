@@ -9,6 +9,7 @@ TOKEN = ""
 
 client = discord.Client()
 
+
 # requires `snscrap` library
 COMMAND = r"snscrape --jsonl " \
           f"""--max-results num_results twitter-hashtag keyword"""
